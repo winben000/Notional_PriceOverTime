@@ -1,0 +1,13 @@
+{
+    "exchange": "bybit",
+    "symbol": "SAHARA/USDT",
+    "group_id": "",
+    "enable_depth_monitor": false,
+    "depth_alert_interval": 900,
+    "min_depth_notional": 50000,
+    "enable_large_trades": true,
+    "min_trade_amount": 10000,
+    "enable_ema_ratio": true,
+    "ema_window": 15,
+    "ema_timeframe": 300
+}
