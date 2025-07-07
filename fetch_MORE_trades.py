@@ -10,7 +10,7 @@ import time
 def fetch_all_trades(symbol='MORE/USDT', limit=1000, output_file='more_trades.csv'):
     # 1) Initialize exchange
     exchange = ccxt.gateio({
-        'enableRateLimit': True,   # Respect rate limits
+        'enableRateLimit': True,   # Respect rate limits    
     })
 
     all_trades = []

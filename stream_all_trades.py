@@ -92,8 +92,7 @@ async def log_all_trades(grouped_trades, symbol, exchange_name, market_type_indi
 # Function to watch recent trades
 async def watch_trades(exchange, symbol, config):
     exchange_name = exchange.id
-    run_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    csv_file = f"trades_{run_timestamp}.csv"
+    csv_file = f"trades_{symbol}.csv"
     
     # Track if we've written the header yet
     header_written = False
